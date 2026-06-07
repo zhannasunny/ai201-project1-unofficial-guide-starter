@@ -10,7 +10,9 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
+Domain - University of South Florida Off-Campus Housing Guide
 
+This knowledge is hard to find in one place because it is scattered across apartment review sites, Reddit threads, student-run listing aggregators, and word-of-mouth. Official university resources only list housing options — they don't tell you that one complex has chronic maintenance issues, that a particular neighborhood floods in summer, or that the Bull Runner bus stops running at a certain hour. The gap between what landlords advertise and what students actually experience is exactly what this system fills
 ---
 
 ## Documents
@@ -20,16 +22,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | USF Off-Campus Housing Search| USF-run listing portal; includes real student reviews on each property page — both positive and negative | https://offcampushousing.usf.edu |
+| 2 | Apartments for Bulls | Student-run aggregator specific to USF; listings, pricing, neighborhood descriptions written for Bulls | https://www.apartmentsforbulls.com | 
+| 3 | Reddit USF community | Student-to-student housing advice threads; search "off campus," "apartment," "where to live" | https://www.reddit.com/r/USF |
+| 4 | The Oracle Article | USF's student newspaper; covers housing affordability, on-campus shortages, off-campus market conditions | https://www.usforacle.com/2023/11/30/tampa-rent-prices-keep-rising-how-are-usf-students-managing |
+| 5 | USF Oracle | Covers the on-campus shortage (7,200 applicants, 6,400 beds) and links to rent reporting | https://www.usforacle.com/2024/03/21/a-bulls-guide-to-applying-for-housing-this-year |
+| 6 | Apartments.com | Neutral third-party; covers Fletcher Ave corridor, bus system context, neighborhood notes | https://www.apartments.com/off-campus-housing/fl/tampa/university-of-south-florida-at-tampa-tampa-campus |
+| 7 | Niche.com | Resident-written neighborhood reviews for the area directly adjacent to USF; covers safety, commute, cost | https://www.niche.com/places-to-live/temple-terrace-hillsborough-fl |
+| 8 | Google reviews | General reviews (mostly real) about USF off-campus complexes. Search the most popular compexes | https://www.google.com |
+| 9 | Yelp | General reviews (mostly real) about USF off-campus complexes. Search the most popular compexes | https://www.yelp.com |
+| 10 | USF Bull Runner Transit | Official bus routes, stops, and hours; essential for evaluating any apartment by transit access | https://www.usf.edu/administrative-services/parking/transportation/bull-runner |
 
 ---
 
