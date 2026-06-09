@@ -1,0 +1,136 @@
+---Route Brown:
+00102 - Library
+00101 - Math & Engineering
+00530 - The Retreat
+00601 - Busch Gardens Employee Entrance
+00508 - McKinley Dr at Bougainvillea Ave to LIB
+00504 - McKinley Dr to LIB
+-Hours: 
+Monday-Thurday: 7 AM - Midnight
+Friday: 7 AM - 6 PM
+Saturday & Sunday: 11 AM - 6 PM
+
+
+---Route Orange:
+00401 - Marshall Student Center
+00421 - North Campus Mail Center
+00425 - Holly Dr at Maple Suites
+00445 - Parking Lot 35
+00449 - Holly Dr at 50th St
+00905 - N 50th St at Bordeaux Village Pl
+00911 - N 50th St at Elm Dr
+00161 - Lee Roy Selmon Athletics Center
+00165 - Yuengling Center east entrance
+00129 - Muma College of Business South Entrance
+00102 - Library
+00101 - Math & Engineering
+00108 - Alumni Center
+00110 - Patel Center
+00166 - Softball Stadium
+00162 - Baseball Field
+00158 - Sycamore Dr at Elm Dr
+00154 - Sycamore Dr - Stadium
+00150 - Sycamore Dr at Holly Dr
+00446 - Greek Park
+00426 - Holly Drive Apartments
+00418 - The Village Holly Dr entrance
+00414 - The Village Palm Dr entrance
+00966 - The Hub
+00970 - Parking Lot 56
+00971 - Publix
+00330 - Park and Ride Lot 43 East
+00328 - Park and Ride Lot 43 West
+00326 - Laurel Dr Parking Garage
+00305 - School of Music
+00303 - Fine Arts Studio
+-Hours: 
+Monday-Thurday: 7 AM - Midnight
+Friday: 7 AM - 6 PM
+Saturday & Sunday: 11 AM - 6 PM
+
+--Route Plum:
+00401 - Marshall Student Center
+00115 - Genshaft Dr at Maple Suites
+00121 - Sessums Mall
+00125 - Muma College of Business
+00129 - Muma College of Business South Entrance
+00102 - Library
+00101 - Math & Engineering
+00203 - Center for Urban Transportation Research
+00209 - Science Center
+00213 - Simmons Park
+00221 - Psychology to MSC
+00305 - School of Music
+00303 - Fine Arts Studio
+-Hours: 
+Monday-Thurday: 7 AM - Midnight
+Friday: 7 AM - 6 PM
+Saturday & Sunday: 11 AM - 6 PM
+
+
+---Route Red:
+00401 - Marshall Student Center
+00302 - Post Office
+00304 - Parking and Transportation Services
+00312 - USF Health Faculty Office Building
+00314 - Holly Dr at Magnolia Dr
+00319 - Children's Medical Services
+00716 - UATC to LIB
+00718 - E 131st Ave to LIB
+00713 - N 22nd St at Vollmer Way
+00711 - N 22nd St at University Village
+00704 - HUB Tampa to Library
+00701 - The Standard to LIB
+00241 - Botanical Gardens to Library
+00206 - University Technology Center
+00204 - Research Park
+00102 - Library
+00101 - Math & Engineering
+00203 - Center for Urban Transportation Research
+00205 - Magnolia Apartments
+00239 - Magnolia Fields Complex
+00250 - HPC (On Demand after 5p & wknd)
+00240 - Botanical Gardens to Mall
+00700 - The Standard to MSC
+00705 - HUB Tampa to MSC
+00709 - N 22nd St at University Village to MSC
+00712 - N 22nd St at University Lake Dr
+00717 - E 131st Ave to MSC
+00715 - UATC to MSC
+00320 - Holly Dr at MDA
+00315 - Holly Dr at Health Dr
+00313 - Stabile Research Building
+00311 - Moffitt Research Center
+00305 - School of Music
+00303 - Fine Arts Studio
+00301 - Theater Centre
+-Hours: 
+Monday-Thurday: 7 AM - Midnight
+Friday: 7 AM - 6 PM
+Saturday & Sunday: 11 AM - 6 PM
+
+---Route Blue:
+00401 - Marshall Student Center
+00414 - The Village Palm Dr entrance
+00966 - The Hub
+00970 - Parking Lot 56
+00971 - Publix
+00330 - Park and Ride Lot 43 East
+00328 - Park and Ride Lot 43 West
+00326 - Laurel Dr Parking Garage
+00312 - USF Health Faculty Office Building
+00314 - Holly Dr at Magnolia Dr
+00317 - USF Health at MDN
+00340 - Westside Conference Center
+00342 - College of Public Health
+00344 - Northwest Education Complex
+00346 - Chiles Center
+00348 - USF Health Therapy Building
+00350 - Child Development Center
+00352 - Morsani Advanced Healthcare
+00305 - School of Music
+00303 - Fine Arts Studio
+-Hours: 
+Monday-Thurday: 7 AM - 7 PM
+Friday: 7 AM - 6 PM
+Saturday & Sunday: not working
