@@ -132,7 +132,7 @@ documents\Architecture.png
 Claude: I plan to give it domain, documents (sources), and chunking strategy. I will expect it to produce a python script that is able to digest and chunk my sources according to my chunking strategy (reviews and articles should have different chunks). I will verify that the output is correct when it produces good chunks (not too big, not too small, and it has the context around it).
 
 **Milestone 4 — Embedding and retrieval:**
-Claude: I will give it the retrieval approach from this document and the pipeline diagram. I will expect it to generate the embedding and retrieval code, which loads chuks from ingestion pipeline, does embedding with all-MiniLM-L6-v2, and stores in ChromaDB with source metadata. I might have to play with number of k. I will verify the result when it returns a chunks with relevant scores (0.8+), which produces specific and on-topic results (make sure there is no off-topic answer or wrong source).
+Claude: I will give it the retrieval approach from this document and the pipeline diagram. I will expect it to generate the embedding and retrieval code, which loads chuks from ingestion pipeline, does embedding with all-MiniLM-L6-v2, and stores in ChromaDB with source metadata. I might have to play with number of k. I will verify the result when it returns a chunks with relevant scores (below 0.6), which produces specific and on-topic results (make sure there is no off-topic answer or wrong source).
 
 **Milestone 5 — Generation and interface:**
 Claude: I will ask it to produce the generation and interface code. My prompt will include my grounding requirements and output format that I want (answer and source list). I will verify the result by making sure the answer is grounded and has a source.
