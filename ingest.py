@@ -21,24 +21,22 @@ from bs4 import BeautifulSoup
 
 DOCUMENTS_DIR = "documents"
 
-# Oracle article URLs to fetch automatically
-ARTICLE_SOURCES = [
-    {
-        "url": "https://www.usforacle.com/2023/11/30/tampa-rent-prices-keep-rising-how-are-usf-students-managing",
-        "source": "oracle_rent_article",
-        "source_type": "article",
-    },
-    {
-        "url": "https://www.usforacle.com/2024/03/21/a-bulls-guide-to-applying-for-housing-this-year",
-        "source": "oracle_housing_guide",
-        "source_type": "article",
-    },
-]
-
 # Local .txt files and their metadata
 # Each file should contain one item per line (one review, one comment, one route)
 # Separate items with a blank line
 LOCAL_SOURCES = [
+    {
+        "filename": "oracle_rent_article.txt",
+        "source": "oracle_rent_article",
+        "source_type": "article",
+        "url": "https://www.usforacle.com/2023/11/30/tampa-rent-prices-keep-rising-how-are-usf-students-managing",
+    },
+    {
+        "filename": "oracle_housing_guide.txt",
+        "source": "oracle_housing_guide",
+        "source_type": "article",
+        "url": "https://www.usforacle.com/2024/03/21/a-bulls-guide-to-applying-for-housing-this-year",
+    },
     {
         "filename": "reddit_thread_off_campus_living.txt",
         "source": "reddit_off_campus_living",
@@ -157,32 +155,6 @@ def chunk_transit(text):
     return chunks
 
 
-# ── Fetching articles ─────────────────────────────────────────────────────────
-
-def fetch_article(url):
-    """Fetch and extract body text from an Oracle article."""
-    try:
-        headers = {"User-Agent": "Mozilla/5.0"}
-        response = requests.get(url, headers=headers, timeout=10)
-        response.raise_for_status()
-        soup = BeautifulSoup(response.text, "html.parser")
-
-        # Remove nav, footer, ads, scripts
-        for tag in soup(["nav", "footer", "script", "style", "aside", "header"]):
-            tag.decompose()
-
-        # Oracle uses article body in <div class="entry-content"> or <article>
-        article = soup.find("div", class_="entry-content") or soup.find("article")
-        if article:
-            text = article.get_text(separator="\n")
-        else:
-            text = soup.get_text(separator="\n")
-
-        return clean_text(text)
-    except Exception as e:
-        print(f"  WARNING: Could not fetch {url}: {e}")
-        return None
-
 
 # ── Loading local files ───────────────────────────────────────────────────────
 
@@ -205,24 +177,7 @@ def build_chunks():
     """
     all_chunks = []
 
-    # 1. Fetch and chunk Oracle articles
-    print("Fetching Oracle articles...")
-    for source in ARTICLE_SOURCES:
-        print(f"  {source['source']}...")
-        text = fetch_article(source["url"])
-        if text:
-            chunks = chunk_article(text, chunk_size=500, overlap=100)
-            for i, chunk in enumerate(chunks):
-                all_chunks.append({
-                    "text": chunk,
-                    "source": source["source"],
-                    "source_type": source["source_type"],
-                    "url": source["url"],
-                    "chunk_index": i,
-                })
-            print(f"    → {len(chunks)} chunks")
-
-    # 2. Load and chunk local files
+    # Load and chunk local files
     print("\nLoading local documents...")
     for source in LOCAL_SOURCES:
         print(f"  {source['filename']}...")
@@ -234,6 +189,8 @@ def build_chunks():
 
         if source_type == "transit":
             chunks = chunk_transit(text)
+        elif source_type == "article":
+            chunks = chunk_article(text, chunk_size=800, overlap=200)
         else:
             # reddit, google_review, niche_review → one review per chunk
             chunks = chunk_reviews(text, max_chars=1000)
