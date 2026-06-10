@@ -1,17 +1,20 @@
----Route Brown:
+The Bull Runner is USF's free bus service available to all students, faculty, and staff. It connects the main Tampa campus to surrounding off-campus housing complexes including The Standard, HUB Tampa, and nearby neighborhoods. Students without a car can use the Bull Runner to get to and from campus at no cost. Routes run Monday through Thursday 7 AM to midnight, Friday 7 AM to 6 PM, and Saturday/Sunday 11 AM to 6 PM.
+
+
+Route Brown:
 00102 - Library
 00101 - Math & Engineering
 00530 - The Retreat
 00601 - Busch Gardens Employee Entrance
 00508 - McKinley Dr at Bougainvillea Ave to LIB
 00504 - McKinley Dr to LIB
--Hours: 
+Hours: 
 Monday-Thurday: 7 AM - Midnight
 Friday: 7 AM - 6 PM
 Saturday & Sunday: 11 AM - 6 PM
 
 
----Route Orange:
+Route Orange:
 00401 - Marshall Student Center
 00421 - North Campus Mail Center
 00425 - Holly Dr at Maple Suites
@@ -43,12 +46,12 @@ Saturday & Sunday: 11 AM - 6 PM
 00326 - Laurel Dr Parking Garage
 00305 - School of Music
 00303 - Fine Arts Studio
--Hours: 
+Hours: 
 Monday-Thurday: 7 AM - Midnight
 Friday: 7 AM - 6 PM
 Saturday & Sunday: 11 AM - 6 PM
 
---Route Plum:
+Route Plum:
 00401 - Marshall Student Center
 00115 - Genshaft Dr at Maple Suites
 00121 - Sessums Mall
@@ -62,13 +65,13 @@ Saturday & Sunday: 11 AM - 6 PM
 00221 - Psychology to MSC
 00305 - School of Music
 00303 - Fine Arts Studio
--Hours: 
+Hours: 
 Monday-Thurday: 7 AM - Midnight
 Friday: 7 AM - 6 PM
 Saturday & Sunday: 11 AM - 6 PM
 
 
----Route Red:
+Route Red:
 00401 - Marshall Student Center
 00302 - Post Office
 00304 - Parking and Transportation Services
@@ -104,12 +107,12 @@ Saturday & Sunday: 11 AM - 6 PM
 00305 - School of Music
 00303 - Fine Arts Studio
 00301 - Theater Centre
--Hours: 
+Hours: 
 Monday-Thurday: 7 AM - Midnight
 Friday: 7 AM - 6 PM
 Saturday & Sunday: 11 AM - 6 PM
 
----Route Blue:
+Route Blue:
 00401 - Marshall Student Center
 00414 - The Village Palm Dr entrance
 00966 - The Hub
@@ -130,7 +133,7 @@ Saturday & Sunday: 11 AM - 6 PM
 00352 - Morsani Advanced Healthcare
 00305 - School of Music
 00303 - Fine Arts Studio
--Hours: 
+Hours: 
 Monday-Thurday: 7 AM - 7 PM
 Friday: 7 AM - 6 PM
 Saturday & Sunday: not working
