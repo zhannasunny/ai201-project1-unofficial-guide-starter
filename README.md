@@ -44,15 +44,15 @@ This knowledge is valuable and hard to find through official channels because th
 
 Review sources:
 **Chunk size:**
-1000
+1000 char
 **Overlap:**
-0
+0 char
 
 Articles:
 **Chunk size:**
-800
+800 char
 **Overlap:**
-200
+200 char
 
 **Why these choices fit your documents:**
 For review sources (#1, #4-9) we should use chunk size that equals the whole review without any overlap (one review does not depend on the other -> we don't need overlap to keep the context). On the other hand, we should use slightly smaller chunk size for the articles. Additionally, we should include an overlap of 200 characters to make sure that the chunk isn't taken out of the context.
@@ -67,7 +67,7 @@ For review sources (#1, #4-9) we should use chunk size that equals the whole rev
 all-MiniLM-L6-v2
 
 **Production tradeoff reflection:**
-all-MiniLM-L6-v2 is a decent local model that is not expensive, doesn't have rate limits, and does not require an API key. That makes it a good choice for this codepath project. For a production deployment, on the other hand, I would consider accuracy, as student language (sland) might not mix so well with this system. For this reason, I would consider bge-large for better accurancy, although highest cost. We don't need multilangual support here because the domain is in the US for a university, where the primary language is English. Finally, API requirement could add reliability and scalability, but it would introduce the need for the API key, which could add additional cost.
+all-MiniLM-L6-v2 is a decent local model that is not expensive, doesn't have rate limits, and does not require an API key. That makes it a good choice for this codepath project. For a production deployment, on the other hand, I would consider accuracy, as student language (slang) might not mix so well with this system. For this reason, I would consider bge-large for better accurancy, although highest cost. We don't need multilangual support here because the domain is in the US for a university, where the primary language is English. Finally, API requirement could add reliability and scalability, but it would introduce the need for the API key, which could add additional cost.
 
 ---
 
@@ -81,9 +81,19 @@ all-MiniLM-L6-v2 is a decent local model that is not expensive, doesn't have rat
      the mechanism. -->
 
 **System prompt grounding instruction:**
+"You are a helpful assistant for University of South Florida (USF) students 
+looking for honest information about off-campus housing near campus.
+
+You must answer ONLY using the information provided in the documents below.
+Do NOT use your general knowledge or make up information not found in the documents.
+If the documents do not contain enough information to answer the question, say exactly:
+"I don't have enough information in my sources to answer that question."
+
+Always be specific — mention complex names, prices, or details when they appear in the documents.
+Keep your answer concise and helpful."
 
 **How source attribution is surfaced in the response:**
-
+The retrieved chunk gets connected to the source (e.g. [Document 1]) when the system responds
 ---
 
 ## Evaluation Report
